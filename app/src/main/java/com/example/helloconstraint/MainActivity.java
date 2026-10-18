@@ -49,6 +49,15 @@ public class MainActivity extends AppCompatActivity {
                 zero.setBackgroundTintList(ColorStateList.valueOf(Color.YELLOW));
             }
         });
-    }
 
+        zero.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                st.setText("0");
+
+                v.setBackgroundTintList(ColorStateList.valueOf(Color.GRAY));
+                count.setBackgroundTintList(ColorStateList.valueOf(Color.BLUE));
+            }
+        });
+    }
 }
