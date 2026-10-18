@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/materialToolbar2"
+        android:id="@+id/materialToolbar"
         android:layout_width="960dp"
         android:layout_height="168dp"
         android:background="?attr/colorPrimary"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/editTextText"
         android:layout_width="910dp"
         android:layout_height="168dp"
         android:layout_marginStart="32dp"
@@ -31,7 +31,7 @@
         app:layout_constraintTop_toTopOf="@+id/materialToolbar" />
 
     <Button
-        android:id="@+id/button_toast2"
+        android:id="@+id/button_toast"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="260dp"
         android:layout_height="208dp"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_zero2"
+        android:id="@+id/button_zero"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="254dp"
         android:layout_height="214dp"
@@ -61,7 +61,7 @@
         app:layout_constraintVertical_bias="0.43" />
 
     <Button
-        android:id="@+id/button_count2"
+        android:id="@+id/button_count"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="248dp"
         android:layout_height="249dp"
@@ -76,7 +76,7 @@
         app:layout_constraintVertical_bias="0.158" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView"
         android:layout_width="640dp"
         android:layout_height="1077dp"
         android:layout_marginStart="304dp"
