@@ -86,4 +86,8 @@ app/src/main/
 
 ## Conclusion
 
-This project demonstrates basic Android development concepts, including interactive buttons, click listeners, updating UI elements, changing background colors, and designing layouts for different screen sizes.
+This project demonstrates basic Android development concepts, including interactive buttons, click listeners, updating UI elements, changing background colors, and designing 
+
+layouts for different screen sizes.
+
+<img width="223" height="475" alt="Screenshot 2026-10-18 212000" src="https://github.com/user-attachments/assets/45410283-b26d-4f5f-a1e5-7bab7ce89a28" /><img width="501" height="236" alt="Screenshot 2026-10-18 211952" src="https://github.com/user-attachments/assets/bb8a9141-2602-430c-a155-6d75c566922e" />
