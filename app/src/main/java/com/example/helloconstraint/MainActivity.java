@@ -31,5 +31,24 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Hello Toast!", Toast.LENGTH_SHORT).show();
             }
         });
+
+        count.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int stevilo = Integer.parseInt(st.getText().toString());
+                stevilo++;
+
+                st.setText(String.valueOf(stevilo));
+
+                if (stevilo % 2 == 0) {
+                    v.setBackgroundTintList(ColorStateList.valueOf(Color.GREEN));
+                } else {
+                    v.setBackgroundTintList(ColorStateList.valueOf(Color.RED));
+                }
+
+                zero.setBackgroundTintList(ColorStateList.valueOf(Color.YELLOW));
+            }
+        });
     }
+
 }
