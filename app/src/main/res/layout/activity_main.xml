@@ -81,8 +81,8 @@
             android:layout_marginTop="104dp"
             android:background="#FFEB3B"
             android:gravity="center"
-            android:textSize="60sp"
             android:textColor="#0000FF"
+            android:textSize="96sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

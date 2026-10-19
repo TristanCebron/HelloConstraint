@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                     v.setBackgroundTintList(ColorStateList.valueOf(Color.RED));
                 }
 
-                zero.setBackgroundTintList(ColorStateList.valueOf(Color.YELLOW));
+                zero.setBackgroundTintList(ColorStateList.valueOf(Color.BLUE));
             }
         });
 
