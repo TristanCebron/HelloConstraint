@@ -20,14 +20,15 @@
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="215dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="32dp"
+        android:layout_width="269dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="text"
         android:text="HelloConstraint"
-        android:textSize="20sp"
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/materialToolbar"
         app:layout_constraintTop_toTopOf="@+id/materialToolbar" />
 

@@ -25,19 +25,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@+id/editTextText"
-            android:layout_width="215dp"
-            android:layout_height="56dp"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="4dp"
-            android:ems="10"
-            android:inputType="text"
-            android:text="HelloConstraint"
-            android:textSize="20sp"
-            app:layout_constraintStart_toStartOf="@+id/materialToolbar"
-            app:layout_constraintTop_toTopOf="@+id/materialToolbar" />
-
         <Button
             android:id="@+id/button_toast"
             style="@style/Widget.AppCompat.Button"
@@ -84,6 +71,18 @@
             android:textColor="#0000FF"
             android:textSize="96sp"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="159dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="HelloConstraint"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/materialToolbar"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
